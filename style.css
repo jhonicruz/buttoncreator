@@ -4,24 +4,17 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-label {
-  display: block;
-  margin-bottom: 0.5rem;
-  margin-top: 1rem;
-}
 
 body {
   background-color: #ccc;
-}
-
-input {
-  display: block;
+  height: 100vh;
 }
 
 .button-creator {
   display: grid;
   grid: 30px;
-  padding: 30px;
+  padding: 12px;
+  height: 100%;
   grid-template-columns: 200px 1fr;
 }
 
@@ -52,4 +45,15 @@ input {
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
+
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.6rem;
+}
+
+input {
+  display: block;
 }
